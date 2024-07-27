@@ -163,3 +163,48 @@
 .footer .one h1{
     font-size: 18px;
 }
+
+
+/* -----------------------------dilen--------------------------- */
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+}
+.contact .dil-left{
+    margin-right: 40px;
+}
+.contact .dil-left img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contact  dil-right h1{
+    font-size: 55px;
+}
+
+.info{
+    padding: 20px 15%;
+}
+.info h1{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.us{
+    display: flex;
+    align-items: center;
+    padding: 20px 15%;
+}
+.us .dil-lefty{
+    margin-left: 50px;
+}
+.us .dil-lefty p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.us .dil-lefty a{
+    text-decoration: none;
+    color: blue;
+}
+.us .dil-lefty a:hover{
+    color: black;
+}
