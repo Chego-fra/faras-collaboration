@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- ---------------------------------------nav---------------------------------- - */
+.navo{
+    background: #152228;
+    display: flex;
+    padding: 5px 10%;
+    align-items: center;
+}
+.navo .logoo{
+    margin-left: 100px;
+}
+.navo .logoo img{
+    width: 200px;
+}
+.navo .linkss{
+    margin-left: 100px;
+}
+.navo .linkss a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.navo .linkss a:hover{
+    color: #3da060;
+}
+/* -----------------------------dilen--------------------------- */
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+}
+.contact .dil-left{
+    margin-right: 40px;
+}
+.contact .dil-left img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contact  dil-right h1{
+    font-size: 55px;
+}
+
+.info{
+    padding: 20px 15%;
+}
+.info h1{
+    font-size: 40px;
+    margin-left: 50px;
+}
+.us{
+    display: flex;
+    align-items: center;
+    padding: 20px 15%;
+}
+.us .dil-lefty{
+    margin-left: 50px;
+}
+.us .dil-lefty p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.us .dil-lefty a{
+    text-decoration: none;
+    color: blue;
+}
+.us .dil-lefty a:hover{
+    color: black;
+}
+/* ---------------------------------------footer---------------------------------- --> */ 
+.footers{
+    background: #152228;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+.footers .ones{
+    margin-left: 40px;
+}
+.footers .ones img{
+    width: 100px;
+}
+.footers .ones  a{
+    text-decoration: none;
+    color: white;
+}
+.footers .ones  a i{
+    background: #3da060;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.footers .ones h1{
+    font-size: 18px;
+}
+
+
